@@ -12,6 +12,9 @@ L’obiettivo principale del sito è:
 - Comunicare fiducia e professionalità
 - Offrire un’esperienza di navigazione semplice e intuitiva
 
+## Live Demo
+
+https://giulia-lazzari.github.io/sito-vetrina/
 
 ## Struttura del sito
 
@@ -69,7 +72,7 @@ Il sito è completamente responsive e ottimizzato per:
 
 - Toggle menu mobile
 - Navigazione fluida tra sezioni
- 
+
 
 ## Licenza
 
