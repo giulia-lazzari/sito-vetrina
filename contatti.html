@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contatti | Prenota esperienza in mare a Castro</title>
+<meta name="description" content="Contatta Durlindana per noleggio barche, tour guidati e esperienze in mare a Castro Marina. Prenota ora.">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="servizi">
+
+<!-- HEADER -->
+<header class="header">
+    <a href="index.html">
+        <img src="contents/logo-durlindana.png" class="logo" alt="Logo">
+    </a>
+
+    <nav>
+        <ul id="menu" class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chi-siamo.html">Chi siamo</a></li>
+            <li><a href="servizi.html">Servizi</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+        </ul>
+
+        <div id="menu-toggle" class="menu-toggle">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="page-hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-text">
+        <h1>Contattaci</h1>
+        <p>Prenota la tua esperienza sul mare di Castro</p>
+    </div>
+</section>
+
+<!-- CONTENUTO -->
+<section class="contact-section">
+
+    <div class="contact-grid">
+
+        <!-- INFO -->
+        <div class="contact-info">
+            <h2>Parliamo insieme</h2>
+
+            <p>
+                Hai domande o vuoi prenotare?  
+                Siamo a disposizione per aiutarti a scegliere l’esperienza migliore.
+            </p>
+
+            <div class="info-box">
+                <p><strong>📍 Castro Marina</strong></p>
+                <p><strong>📞 Cristiana:</strong> +39 338 897 9996</p>
+                <p><strong>📞 Rocco:</strong> +39 360 740 648</p>
+                <p><strong>📧 Email:</strong> durlindana3@virgilio.it</p>
+            </div>
+
+            <a href="servizi.html" class="btn">Scopri i servizi</a>
+        </div>
+
+        <!-- FORM -->
+        <form class="contact-form" id="contactForm">
+
+            <h2>Prenota ora</h2>
+
+            <input type="text" id="fullname" placeholder="Nome e cognome" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Telefono">
+
+            <select id="service" required>
+                <option value="">Seleziona servizio</option>
+                <option>Noleggio barche</option>
+                <option>Tour guidati</option>
+                <option>Barca a vela</option>
+                <option>Canoe e pedalò</option>
+            </select>
+
+            <input type="number" id="people" placeholder="Numero persone" min="1" required>
+            <input type="date" id="date">
+
+            <textarea id="message" placeholder="Messaggio (facoltativo)"></textarea>
+
+            <button type="submit" class="btn">Invia richiesta</button>
+
+            <p id="formResponse"></p>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-grid">
+
+        <div>
+            <strong>DURLINDANA DI MAZZOLI CRISTIANA</strong>
+            <p>Via Luigi Schifano, 56 – Castro (LE)</p>
+            <p>P. IVA: 03019700750</p>
+        </div>
+
+        <div>
+            <p>Email: durlindana3@virgilio.it</p>
+            <p>Tel: +39 338 897 9996</p>
+        </div>
+
+        <div>
+            <p>Vivi il mare di Castro</p>
+            <a href="contatti.html" class="btn">Prenota ora</a>
+        </div>
+
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
